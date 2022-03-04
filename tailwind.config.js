@@ -3,16 +3,16 @@ module.exports = {
   theme: {
     container: {
       center: true,
-      padding: "1rem"
+      padding: "1rem",
     },
     extend: {
       fontFamily: {
-        roboto: "'Roboto', sans-serif;"
-      }, 
+        roboto: "'Roboto', sans-serif;",
+      },
       colors: {
-        primary: '#FD3D57'
-      }
+        primary: "#FD3D57",
+      },
     },
   },
-  plugins: [],
-}
+  plugins: [require("@tailwindcss/forms")],
+};
